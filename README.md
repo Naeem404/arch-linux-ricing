@@ -1,4 +1,4 @@
-Come kewl stuff about my ricing:3
+Some kewl stuff about my ricing:3
 
 
 I added the hilt of Tipu Sultans sword into my terminal's fastfetch cuz I thought it looked super cool especially in an ascii format.
