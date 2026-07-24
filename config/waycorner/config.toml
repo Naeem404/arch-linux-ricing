@@ -1,0 +1,5 @@
+[show-waybar]
+command = ["pkill", "-USR2", "-x", "waybar"]
+locations = ["top"]
+size = 10
+timeout_ms = 250

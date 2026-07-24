@@ -1,0 +1,48 @@
+/* Monochrome Nautilus (GTK3) */
+.nautilus-window,
+.nautilus-window * {
+    background-color: #000000;
+    color: #ffffff;
+    caret-color: #ffffff;
+}
+
+.nautilus-window .sidebar,
+.nautilus-window .places-sidebar,
+.nautilus-window treeview,
+.nautilus-window list,
+.nautilus-window .view,
+.nautilus-window notebook,
+.nautilus-window headerbar,
+.nautilus-window .titlebar {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #333333;
+}
+
+.nautilus-window treeview:selected,
+.nautilus-window row:selected,
+.nautilus-window .view:selected,
+.nautilus-window .nautilus-canvas-item:selected {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.nautilus-window button,
+.nautilus-window .linked button,
+.nautilus-window headerbar button {
+    background-color: #000000;
+    color: #ffffff;
+    border-color: #333333;
+}
+
+.nautilus-window button:hover,
+.nautilus-window headerbar button:hover {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.nautilus-window .sidebar-icon,
+.nautilus-window image {
+    -gtk-icon-style: symbolic;
+    color: #ffffff;
+}

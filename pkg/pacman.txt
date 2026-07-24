@@ -1,41 +1,28 @@
-# Official Arch packages
-# window manager
-i3-wm
-bspwm
-sway
-
-# compositor
-picom
-
-# bar
-polybar
-waybar
-
-# launcher
-rofi
-
-# terminal
-kitty
-alacritty
-
-# shell
-zsh
-
-# notifications
-dunst
-
-# fonts
-noto-fonts
-noto-fonts-cjk
-noto-fonts-emoji
-ttf-font-awesome
-
-# utilities
-feh
-nitrogen
-imagemagick
-pavucontrol
-pulseaudio
-pulsemixer
+awww
+bash-completion
+blueman
+bluez
+bluez-utils
 brightnessctl
-network-manager-applet
+fastfetch
+foot
+gnome-keyring
+grim
+gtk-layer-shell
+hyprlock
+libnotify
+mako
+nautilus
+networkmanager
+niri
+playerctl
+python-gobject
+rofi
+slurp
+swayidle
+ttf-font-awesome
+waybar
+wireplumber
+wl-clipboard
+xorg-xwayland
+xwayland-satellite

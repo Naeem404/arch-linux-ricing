@@ -8,3 +8,6 @@
 local/
 secrets*
 !secrets*.example
+__pycache__/
+*.py[cod]
+*.bak

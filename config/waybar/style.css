@@ -1,0 +1,170 @@
+* {
+    font-family: "WaybarIcons";
+    font-size: 13px;
+    font-weight: 400;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: #000000;
+    color: #d7d7d7;
+}
+
+window#waybar.hidden {
+    opacity: 0.2;
+}
+
+tooltip {
+    background-color: #000000;
+    border: 1px solid #333333;
+}
+
+tooltip label {
+    color: #d7d7d7;
+}
+
+button {
+    box-shadow: inset 0 -2px transparent;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+}
+
+button:hover {
+    background: rgba(255, 255, 255, 0.08);
+    box-shadow: inset 0 -2px #ffffff;
+}
+
+/* Flat modules - transparent over the solid black bar, no pills */
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#bluetooth,
+#pulseaudio,
+#wireplumber,
+#custom-media,
+#custom-prayer,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#power-profiles-daemon,
+#mpd {
+    background-color: transparent;
+    padding: 0 10px;
+    margin: 0;
+    color: #d7d7d7;
+}
+
+#workspaces {
+    background-color: transparent;
+    padding: 0 4px;
+    margin: 0;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    margin: 0;
+    background-color: transparent;
+    color: #808080;
+    border-radius: 0;
+    box-shadow: inset 0 -2px transparent;
+    transition: all 0.15s ease-in-out;
+}
+
+#workspaces button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+    box-shadow: inset 0 -2px #ffffff;
+}
+
+#workspaces button.focused,
+#workspaces button.active {
+    color: #ffffff;
+    box-shadow: inset 0 -2px #ffffff;
+}
+
+#workspaces button.urgent {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#network:hover,
+#bluetooth:hover,
+#wireplumber:hover,
+#pulseaudio:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: #ffffff;
+}
+
+#clock,
+#custom-prayer {
+    color: #ffffff;
+}
+
+#battery.charging,
+#battery.plugged {
+    color: #ffffff;
+}
+
+@keyframes blink {
+    to {
+        color: #000000;
+        background-color: #ffffff;
+    }
+}
+
+#battery.critical:not(.charging) {
+    color: #ffffff;
+    animation-name: blink;
+    animation-duration: 1s;
+    animation-timing-function: steps(12);
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+#network.disconnected {
+    color: #6f6f6f;
+}
+
+#bluetooth.disabled,
+#bluetooth.off {
+    color: #6f6f6f;
+}
+
+#bluetooth.connected {
+    color: #ffffff;
+}
+
+#wireplumber.muted {
+    color: #6f6f6f;
+}
+
+#temperature.critical {
+    color: #000000;
+    background-color: #ffffff;
+}
+
+#tray > .passive {
+    -gtk-icon-effect: dim;
+}
+
+#tray > .needs-attention {
+    -gtk-icon-effect: highlight;
+}
+
+#idle_inhibitor.activated {
+    color: #ffffff;
+}
+
+#workspaces button {
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    padding: 0 6px;
+}

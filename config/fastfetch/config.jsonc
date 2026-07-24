@@ -1,0 +1,34 @@
+{
+    "logo": {
+        "type": "file",
+        "source": "~/.config/fastfetch/sword.txt",
+        "width": 69,
+        "padding": {
+            "top": 1
+        }
+    },
+    "modules": [
+        "title",
+        "separator",
+        "os",
+        "host",
+        "kernel",
+        "uptime",
+        "packages",
+        "shell",
+        "display",
+        "de",
+        "wm",
+        "terminal",
+        "cpu",
+        "gpu",
+        "memory",
+        "disk",
+        "localip",
+        "battery",
+        "poweradapter",
+        "locale",
+        "break",
+        "colors"
+    ]
+}
