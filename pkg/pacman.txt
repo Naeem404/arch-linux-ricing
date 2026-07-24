@@ -1,0 +1,41 @@
+# Official Arch packages
+# window manager
+i3-wm
+bspwm
+sway
+
+# compositor
+picom
+
+# bar
+polybar
+waybar
+
+# launcher
+rofi
+
+# terminal
+kitty
+alacritty
+
+# shell
+zsh
+
+# notifications
+dunst
+
+# fonts
+noto-fonts
+noto-fonts-cjk
+noto-fonts-emoji
+ttf-font-awesome
+
+# utilities
+feh
+nitrogen
+imagemagick
+pavucontrol
+pulseaudio
+pulsemixer
+brightnessctl
+network-manager-applet

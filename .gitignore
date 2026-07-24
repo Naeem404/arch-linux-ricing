@@ -1,0 +1,10 @@
+# Ignore user-specific or generated files
+*.log
+*.swp
+*.swo
+*~
+.DS_Store
+.cache/
+local/
+secrets*
+!secrets*.example
